@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  height:730px;
+  width: 100%;
+}
+
+.img{
+  width:200px;
+  height: 200px;
+  position: relative;
+  left: 900px;
+  top:80px;
+}
+.msub{
+  position: relative;
+  bottom: 80px;
+}
+.heading{
+  font-family: 'Russo One', sans-serif;
+  font-weight: lighter;
+  padding-left: 100px;
+  font-size: 4em;
+  color: #ffff;
+  padding-bottom: 40px;
+}
+.bt1{
+  padding: 20px 40px 20px 40px;
+  border-radius: 40px;
+  margin-left: 100px;
+  border: none;
+  margin-right: 30px;
+  font-size: 1.2em;
+}
+.bt2{
+  padding: 20px 40px 20px 40px;
+  border-radius: 40px;
+  font-size: 1.2em;
+  background:none;
+  border-width: medium;
+  border-color: #fff;
+  color:#fff;
+}
+.bt1:hover{
+  background:none;
+  background-color: white;
+  opacity: 0.4;
+  color:#000
+}
+.bt2:hover{
+  border: none;
+  background-color:#fff;
+  opacity: 0.4;
+  color: #000;
+}
+.vheading{
+  text-align: center;
+  padding-top:30px;
+  padding-bottom: 30px;
+  font-size: 2.5em;
+}
+table
+  {
+    border-collapse:collapse;
+    background-color:#fff;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+    border-radius: 10px;
+    margin : auto;
+    width:30%;
+    margin-bottom: 50px;
+  }
+
+  th,td
+  {
+    border:1px solid #f2f2f2;
+    padding: 8px 50px;
+    text-align: center;
+    color: black;
+  }
+  th
+  {
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #0cbaba;
+    color:white;
+    padding: 25px 30px;
+  }
+  tr:hover {background-color: #f5f5f5;}
+ td
+ {
+   font-size: 1.1em;
+ }
+ .bi-file-person{
+   background-color: #ffff;
+ }
+.row{
+   margin-left: 500px;
+   width:400px;
+ }
+.form-select{
+  padding: 20px;
+}
+#amount{
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+#amountbtn{
+  margin-left: 16px;
+}
+.button-container{
+  padding: 10px 35px;
+}
+#topic{
+  font-size: 1.8em;
+}
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form {
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+}
